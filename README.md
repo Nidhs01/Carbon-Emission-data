@@ -7,23 +7,23 @@ This repository contains curated datasets and tools related to carbon emissions,
 
 The main dataset I utilize is `data_cleaned.csv`. This file represents a structured and cleaned version of raw information on carbon emissions. It includes key fields that I have prepared for analysis:
 
-*   *Country or Region*
-*   **Year**
-*   **CO₂ Emissions (in metric tons)**
-*   **Emissions per Capita**
-*   **Sector-wise Emissions** (e.g., Energy, Transport, Industry)
+*   Country or Region
+*   Year
+*   CO₂ Emissions (in metric tons)
+*   Emissions per Capital
+*   Sector-wise Emissions (e.g., Energy, Transport, Industry)
 
 The initial raw data, `climate_change_download_0.xls`, was the starting point for this cleaned dataset.
 
-## 💡 Methodology
+💡 Methodology
 
 I followed a systematic methodology to ensure comprehensive analysis and robust model development:
 
-1.  **Data Collection and Initial Acquisition:**
+1.  Data Collection and Initial Acquisition:
     I began by acquiring the raw data, which was available as an Excel file named **`climate_change_download_0.xls`**. To initiate my work, I cloned this GitHub repository using standard Git commands, specifically `git clone https://github.com/<your-username>/<your-repo-name>.git`, and then navigated into the directory using `cd <your-repo-name>`.
 
-2.  **Data Preprocessing and Preparation:**
-    My first analytical step involved comprehensive data preparation, which was detailed within the **`1_data_preparation (1).ipynb`** Jupyter Notebook. During this phase, I focused on refining the datasets, transforming the raw Excel data into a more structured and cleaned format, resulting in the **`data_cleaned.csv`** file. A crucial part of this preprocessing was **feature selection**, where I identified that **"Population count" was no longer relevant for the analysis and, consequently, removed it from the dataset**. This step ensured that the main dataset, `data_cleaned.csv`, included only pertinent fields like "Country or Region," "Year," "CO₂ Emissions (in metric tons)," "Emissions per Capita," and "Sector-wise Emissions".
+2.  Data Preprocessing and Preparation:
+    My first analytical step involved comprehensive data preparation, which was detailed within the `1_data_preparation (1).ipynb` Jupyter Notebook. During this phase, I focused on refining the datasets, transforming the raw Excel data into a more structured and cleaned format, resulting in the `data_cleaned.csv` file. A crucial part of this preprocessing was **feature selection**, where I identified that **"Population count" was no longer relevant for the analysis and, consequently, removed it from the dataset**. This step ensured that the main dataset, `data_cleaned.csv`, included only pertinent fields like "Country or Region," "Year," "CO₂ Emissions (in metric tons)," "Emissions per Capita," and "Sector-wise Emissions".
 
 3.  **Exploratory Data Analysis (EDA):**
     Following data preparation, I conducted an in-depth **Exploratory Data Analysis (EDA)** using the **`2_data_exploration (1).ipynb`** Jupyter Notebook. Through this process, I revealed several important insights that guided subsequent analysis and model selection. I observed that **"CO₂ emissions per capita exhibit a strong linear relationship with energy use," but showed "nonlinear patterns with other variables"**. I also identified both **"country-specific and overall global trends"** in CO₂ emissions, noting instances where global trends diverged into different paths for various country clusters. Furthermore, I detected **"outlier groups,"** particularly those from the **United Arab Emirates (ARE)**, which displayed distinct patterns deviating from global trends and required special consideration during data selection and modeling.
@@ -61,3 +61,20 @@ To get started with this repository and explore the analyses I've performed, fol
 
 The project's code is primarily written in **Jupyter Notebook**, making it accessible and easy to follow the analytical steps.
 ```
+# 🌍 Carbon Emission Data Analysis
+
+This repository contains curated datasets and tools related to carbon emissions, with a primary focus on **analyzing patterns, visualizing trends, and understanding the impact of different sectors and regions on global carbon output**. My work within this repository aims to provide insights crucial for environmental sustainability and informed climate action.
+
+---
+
+## 🧭 Project Overview
+
+This project analyzes global carbon emission trends using machine learning techniques. By transforming raw climate data into actionable insights, it supports environmental policy and sustainability efforts. Tools used include Python, Jupyter Notebooks, and Random Forest models. The analysis uncovers nonlinear relationships, country-specific outliers, and sector-wise emission patterns to inform better decision-making.
+
+---
+
+## 🗺️ Pipeline Overview
+
+Here’s a high-level view of the project workflow:
+
+
