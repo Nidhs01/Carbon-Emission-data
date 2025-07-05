@@ -1,13 +1,13 @@
 ```markdown
-# 🌍 Carbon Emission Data Analysis
+🌍 Carbon Emission Data Analysis
 
 This repository contains curated datasets and tools related to carbon emissions, with a primary focus on **analyzing patterns, visualizing trends, and understanding the impact of different sectors and regions on global carbon output**. My work within this repository aims to provide insights crucial for environmental sustainability and informed climate action.
 
-## 📁 Dataset
+ 📁 Dataset
 
 The main dataset I utilize is `data_cleaned.csv`. This file represents a structured and cleaned version of raw information on carbon emissions. It includes key fields that I have prepared for analysis:
 
-*   **Country or Region**
+*   *Country or Region*
 *   **Year**
 *   **CO₂ Emissions (in metric tons)**
 *   **Emissions per Capita**
