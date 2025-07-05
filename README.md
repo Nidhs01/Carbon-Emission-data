@@ -100,7 +100,7 @@ The data and the analytical framework developed in this repository can support v
 To get started with this repository and explore the analyses I've performed, follow these steps:
 
 1. **Clone the repository:**
-   git clone https://github.com/Srinidhi davuluri/Carbon-Emission-data.git
+   git clone https://github.com/Nidhs01 /Carbon-Emission-data.git
 
 2. **Navigate into the repository directory:**
    cd Carbon-Emission-data
